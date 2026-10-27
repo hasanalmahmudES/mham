@@ -1,0 +1,32 @@
+{
+  "appId": "com.ham.es",
+  "appName": "MHAM",
+  "webDir": "www",
+  "server": {
+    "url": "https://mdham.vercel.app",
+    "cleartext": false,
+    "allowNavigation": [
+      "mdham.vercel.app",
+      "mham.me",
+      "*.mham.me"
+    ]
+  },
+  "appendUserAgent": "MHAMApp",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0,
+      "launchAutoHide": true,
+      "backgroundColor": "#0f172a"
+    }
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "ios": {
+    "contentInset": "always",
+    "allowsLinkPreview": false,
+    "scrollEnabled": true
+  }
+}
